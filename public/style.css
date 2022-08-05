@@ -20,6 +20,7 @@ html {
     font-family: var(--font-serif);
     font-size: 16px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 *,
@@ -798,14 +799,14 @@ div[id="team"] {
 
 .header {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: var(--header-sm-height);
     z-index: 999999;
 }
 
 .header__container {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: var(--body-color);
     height: var(--header-sm-height);
 }
